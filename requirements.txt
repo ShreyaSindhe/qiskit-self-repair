@@ -1,0 +1,7 @@
+qiskit>=1.2
+qiskit-aer
+qiskit-ibm-runtime   # some benchmark tasks use its fake backends
+datasets             # only for download_dataset.py
+pandas
+matplotlib
+tabulate

@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# secrets
+.env
+*.key
+
+# downloaded benchmark (get it with: python download_dataset.py)
+data/qiskit_humaneval.jsonl
+
+# experiment outputs
+results/*.jsonl
+report/*
+!report/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
